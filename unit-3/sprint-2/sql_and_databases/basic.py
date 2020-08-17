@@ -7,10 +7,11 @@ import sqlite3
 from typing import List
 
 
-_valid_contexts: List[str] = ['sqlite',
-                              # 'postgres',
-                              # 'mongo'
-                              ]
+_valid_contexts: List[str] = [
+    "sqlite",
+    # 'postgres',
+    # 'mongo'
+]
 
 
 # Defining this function outside the scope of the class ensures that

@@ -10,10 +10,11 @@ from pathlib import Path
 import sqlite3
 
 
-_valid_contexts: List[str] = ['sqlite',
-                              # 'postgres',
-                              # 'mongo'
-                              ]
+_valid_contexts: List[str] = [
+    "sqlite",
+    # 'postgres',
+    # 'mongo'
+]
 
 
 def _valid_db_path(pattern: str):
